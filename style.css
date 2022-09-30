@@ -1,5 +1,9 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    background-image: linear-gradient(to right , #83B1F2, #83B1F1);
+    font-family: 'Noto Sans', sans-serif;
+    font-variant: small-caps;
+}
 
 .mainContent{
     display: flex;
@@ -28,42 +32,67 @@ flex-direction: column;
     margin-left: 90px;
     margin-top: 70px;
     margin-bottom: -70px;
-    font-size: 3em;
+    font-size: 4em;
 }
 .box{
     display: flex;
     height: 40vh;
     width: 40vw;
-    background-color: aquamarine;
+    background-color: #7eaae7;
+    box-shadow: 10px 10px 8px #00000062 ;
     margin: auto;
     border-radius: 20px;
     margin-left: 90px;
     flex-direction: column;
    
     justify-content: center;
+    position: relative;
     
     
     
+}
+.caixasInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 .textoLogin{
     display: flex;
+    
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+     padding: 10px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    font-size: 23px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(7, 34, 109);
+    color: white;
+    
+   
+    
+    
     
 }
 
 .textoLogin >input{
+    display: flex;
+    flex-direction: row;
     border-radius: 5px;
-    width: 15vw;
-    height: 3vh;
+    width: 18vw;
+    height: 5vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+    box-sizing: border-box;
+    
 }
 
 .btnLogin {
-    
-    width: 50%;
+    display: flex;
+    position: fixed;
+    bottom: 300px;
+    right: 360px;
+    width: 20%;
     padding: 16px 0px;
     margin: 25px;
     border: none;
@@ -71,10 +100,15 @@ flex-direction: column;
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
-    color: #2b134b;
+    color: white;
     letter-spacing: 3px;
-    background: #77ffc0;
+    background: #374B66;
     cursor: pointer;
-    box-shadow: 0px 10px 40px 12px #00ff8052  ;
+    box-shadow: 0px 10px 40px 12px #b9e4f852  ;
+    text-align: center;
+    
+    justify-content: center;
+    
     
 }
+
